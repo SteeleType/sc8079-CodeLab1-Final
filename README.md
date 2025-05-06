@@ -1,5 +1,3 @@
-# FILL IN INFO ABOUT YOUR GAME HERE. 
+# Welcome to scaleable Mancala! 
 
-DO NOT LEAVE IT LIKE THIS!!!
-
-Please? Please, give me content. I'm begging you. It's not that hard. Thanks.
+You can play with as big of any board size as you want! The game board is built using 2D arrays and is completley flexible to your desired size, yipee!!
