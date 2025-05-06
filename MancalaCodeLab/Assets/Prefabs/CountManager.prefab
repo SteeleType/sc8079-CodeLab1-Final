@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1208612056883353364
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 71028724203691138}
+  - component: {fileID: 3254795639790356517}
+  m_Layer: 0
+  m_Name: CountManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &71028724203691138
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208612056883353364}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 863.8792, y: 448.4563, z: 3.7367978}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3254795639790356517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208612056883353364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 236c9a2c77e8abc4ab0f0c8d7fa0e38e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mancalaBoard: {fileID: 3865463545394037759, guid: 4d088df765c035a45b1cefb297c66a85, type: 3}
+  totalCount: 0
+  winPitCountA: 0
+  winPitCountB: 0
+  allMarbles: 0
+  mancalaPitCountA: {fileID: -8145543558629774512, guid: 3fe0c22f86c441241bc89cadaa912800, type: 3}
+  mancalaPitCountB: {fileID: 1411400164777432091, guid: 51ab28dbb45d49441bb9c26bb8ad85cd, type: 3}
+  countText: {fileID: 5751859053208694949, guid: 91f003dc9f135304b89b3a37407884ae, type: 3}
+  boardSizeChecker: 0
