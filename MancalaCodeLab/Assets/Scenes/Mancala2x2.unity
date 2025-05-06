@@ -2310,7 +2310,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 221369497}
-  isPlayer1Turn: 0
+  isPlayer1Turn: 1
 --- !u!4 &1799615871
 Transform:
   m_ObjectHideFlags: 0
@@ -3186,6 +3186,10 @@ PrefabInstance:
     - target: {fileID: 6091264448078552810, guid: 91f003dc9f135304b89b3a37407884ae, type: 3}
       propertyPath: m_Name
       value: WinnerText
+      objectReference: {fileID: 0}
+    - target: {fileID: 6091264448078552810, guid: 91f003dc9f135304b89b3a37407884ae, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
